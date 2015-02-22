@@ -16,77 +16,68 @@ use Truelab\KottiModelBundle\TypeInfo\TypeInfo;
  */
 class Event extends Document
 {
-    protected $start;
 
-    protected $end;
+	protected $start;
 
-    protected $allDay;
+	protected $end;
 
-    protected $linkToFile;
+	protected $allDay;
 
-    /**
-     * @return mixed
-     */
-    public function getStart()
-    {
-        return $this->start;
-    }
+	protected $linkToFile;
 
-    /**
-     * @param mixed $start
-     */
-    public function setStart($start)
-    {
-        $this->start = $start;
-    }
+	/**
+	 * @return mixed
+	 */
+	public function getStart() {
+		return $this->start;
+	}
 
-    /**
-     * @return mixed
-     */
-    public function getEnd()
-    {
-        return $this->end;
-    }
+	/**
+	 * @param mixed $start
+	 */
+	public function setStart($start) {
+		$this->start = $start;
+	}
 
-    /**
-     * @param mixed $end
-     */
-    public function setEnd($end)
-    {
-        $this->end = $end;
-    }
+	/**
+	 * @return mixed
+	 */
+	public function getEnd() {
+		return $this->end;
+	}
 
-    /**
-     * @return mixed
-     */
-    public function getAllDay()
-    {
-        return $this->allDay;
-    }
+	/**
+	 * @param mixed $end
+	 */
+	public function setEnd($end) {
+		$this->end = $end;
+	}
 
-    /**
-     * @param mixed $allDay
-     */
-    public function setAllDay($allDay)
-    {
-        $this->allDay = $allDay;
-    }
+	/**
+	 * @return mixed
+	 */
+	public function getAllDay() {
+		return $this->allDay;
+	}
 
-    /**
-     * @return mixed
-     */
-    public function getLinkToFile()
-    {
-        return $this->linkToFile;
-    }
+	/**
+	 * @param mixed $allDay
+	 */
+	public function setAllDay($allDay) {
+		$this->allDay = $allDay;
+	}
 
-    /**
-     * @param mixed $linkToFile
-     */
-    public function setLinkToFile($linkToFile)
-    {
-        $this->linkToFile = $linkToFile;
-    }
+	/**
+	 * @return mixed
+	 */
+	public function getLinkToFile() {
+		return $this->linkToFile;
+	}
 
-
+	/**
+	 * @param mixed $linkToFile
+	 */
+	public function setLinkToFile($linkToFile) {
+		$this->linkToFile = $linkToFile;
+	}
 }
