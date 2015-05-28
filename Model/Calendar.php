@@ -13,7 +13,7 @@ use Truelab\KottiModelBundle\TypeInfo\TypeInfo;
  *   "association" = "calendars.id = documents.id"
  * })
  */
-class Calendar extends Document
+class Calendar extends Document implements CalendarInterface
 {
 
 }
