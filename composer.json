@@ -15,9 +15,12 @@
         "php": ">=5.4.0",
         "truelab/kotti-model-bundle" : "~0.1"
     },
-    "require-dev": {},
+    "require-dev": {
+        "truelab/git-bump-sh" : "~0.1"
+    },
     "scripts" : {},
     "repositories" : [
-        { "type":"git", "url":"https://github.com/truelab/kotti-model-bundle.git" }
+        { "type":"git", "url":"https://github.com/truelab/kotti-model-bundle.git" },
+        { "type":"git", "url":"https://github.com/truelab/git-bump-sh.git" }
     ]
 }
